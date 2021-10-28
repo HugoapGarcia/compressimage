@@ -187,7 +187,6 @@ const ComporessComponent = () => {
                         <input type="text" id="lname" name="height" ref={newSizeHeightText} placeholder="Enter px" />
                         <br />
                         <button
-                            disable={!newSizeWidthText.current || !newSizeHeightText.current ? 'true' : 'false'}
                             type="button" onClick={(e) => compressTonewSizeHandler(e)}>Resize</button>
                     </form>
                     <br />
